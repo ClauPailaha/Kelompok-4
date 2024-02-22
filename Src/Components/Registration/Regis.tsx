@@ -92,4 +92,63 @@ const Regis = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    paddingHorizontal: 10,
+  },
+  u: {
+    marginBottom: 6,
+  },
+  username: {
+    fontWeight: 'bold',
+    marginLeft: 4,
+    fontSize: 20,
+    color: 'black',
+    marginBottom: 7,
+  },
+  input: {
+    height: 50,
+    borderColor: 'black',
+    borderWidth: 1,
+    borderRadius: 10,
+    marginBottom: 16,
+    marginLeft: 9,
+    paddingLeft: 10,
+    width: '95%',
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#C92DC9',
+    padding: 10,
+    marginTop: 30,
+    width: '95%',
+    height: 50,
+    borderRadius: 30,
+    marginLeft: 9,
+  },
+  s: {
+    paddingTop: 4,
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 17,
+  },
+  resultText: {
+    fontSize: 16,
+    marginBottom: 5,
+    fontWeight: 'normal',
+  },
+  header: {
+    marginBottom: 50,
+    marginTop: 25,
+    marginLeft: 10,
+  },
+  th: {
+    fontSize: 50,
+    fontWeight: 'bold',
+    color: 'black',
+  },
+});
+
 export default Regis;
